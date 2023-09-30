@@ -10,13 +10,11 @@ public class arrays {
 		ages[ages.length-1]-=ages[0];
 		//print the new value of the last element of the array to the console
 		System.out.println("The last element in the first array is: "  + ages[ages.length-1]);
-		
 		int [] ages9 = {3,9,23,64,2,8,28,93,70};
 		//subtract the first element from the last element
 		ages9[ages9.length-1]-=ages9[0];
 		//print the new value of the last element of the array to the console
 		System.out.println("The last element in the second array is: "+ages9[ages9.length-1]);
-		
 		//create an enhanced for loop to calculate the average value of the array elements
 		double averageAge = 0;
 		for (int age : ages) {
@@ -27,6 +25,9 @@ public class arrays {
 		//print out the average age to the console
 		System.out.println("The average age in the first array is: " + averageAge);
 		System.out.println("----------------------------------------------------------------------------");
+		
+		
+		
 		
 		System.out.println("Part 2: ");
 		//create an array and instantiate it with the required values
@@ -48,12 +49,23 @@ public class arrays {
 		//print out concatenated names:
 		System.out.println(allNames);
 		System.out.println("----------------------------------------------------------------------------");
+		
+		
+		
+		
+		
 		System.out.println("Part 3: ");
 		System.out.println("to access the last element of any array use: array[array.length-1]");
 		System.out.println("----------------------------------------------------------------------------");
+		
+		
+		
 		System.out.println("Part 4: ");
 		System.out.println("to access the first element of any array use: array[0]"); 
 		System.out.println("----------------------------------------------------------------------------");
+		
+		
+		
 		System.out.println("Part 5: ");
 		//create a new array nameLengths
 		int [] nameLengths = new int[names.length];
@@ -64,6 +76,11 @@ public class arrays {
 			System.out.println(names[i].length());
 		}
 		System.out.println("----------------------------------------------------------------------------");
+		
+		
+		
+		
+		
 		System.out.println("Part 6: ");
 		int sum = 0;
 		//for loop to sum the name lengths
@@ -73,27 +90,51 @@ public class arrays {
 		//print out the sum to the console
 		System.out.println("The sume of all name legths = "+sum);
 		System.out.println("----------------------------------------------------------------------------");
+		
+		
+		
+		
 		System.out.println("Part 7: ");
 		System.out.println(wordMultiply("Hello",3));
 		System.out.println("----------------------------------------------------------------------------");
+		
+		
+		
 		System.out.println("Part 8: ");
 		System.out.println(fullName ("John","Doe"));
 		System.out.println("----------------------------------------------------------------------------");
+		
+		
+		
 		System.out.println("Part 9: ");
 		System.out.println(GreaterThanHundred(nameLengths));
 		System.out.println("----------------------------------------------------------------------------");
+		
+		
+		
+		
 		System.out.println("Part 10: ");
 		double [] array = {3.2,9.2,23.4,64.6,2.4,8.44,28.4,93.0};
 		System.out.println(arrAverage(array));
 		System.out.println("----------------------------------------------------------------------------");
+		
+		
+		
 		System.out.println("Part 11: ");
 		double [] firstArray = {3.2,9.2,23.4,64.6,2.4,8.44,28.4,93.0};
 		double [] secondArray = {0.0,9.2,23.4,64.6,2.4,8.44,28.4,93.0};
 		System.out.println(FirstArrGreater(firstArray,secondArray));
 		System.out.println("----------------------------------------------------------------------------");
+		
+		
+		
 		System.out.println("Part 12: ");
 		System.out.println(willBuyDrink(false,11));
 		System.out.println("----------------------------------------------------------------------------");
+		
+		
+		
+		
 		System.out.println("Part 13: ");
 		System.out.println(nand(false,false));
 	}
